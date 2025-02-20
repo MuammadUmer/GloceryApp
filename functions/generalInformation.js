@@ -1,5 +1,5 @@
 // Glocery App
-// Please guide bakht with firebase
+// Please guide bakht with firebase.
 
 // registration,
 // login
