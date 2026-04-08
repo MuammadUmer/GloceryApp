@@ -41,6 +41,9 @@ module.exports = {
         "/add": driverLicense.addLicenseSchema,
         "/update": driverLicense.updateLicenseSchema,
     },
+    rideRequest: {
+        "/": rideRequestModule.rideRequestSchema,
+    },
     vehicle: {
         "/add": vehicleModule.vehicleRegistrationSchema,
         "/update": vehicleModule.vehicleRegistrationUpdateSchema,
@@ -48,8 +51,5 @@ module.exports = {
         "/addMotTestCertificate": vehicleModule.motTestCertificate,
         "/addPhvlDocument": vehicleModule.phvlDocument,
         "/addV5cBookKeeper": vehicleModule.v5cBookKeeper,
-    },
-    rideRequest: {
-        "/": rideRequestModule.rideRequestSchema,
     },
 };
